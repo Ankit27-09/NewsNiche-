@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> News </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+
+    
+    <!-- Loader --> 
+
+    <div id="loading" class="loader-container">
+      <h1 class="loading-title"> WORLD SPECTRUM NEWS </h1>
+      <dotlottie-player src="https://lottie.host/8104786a-bc23-4c72-b2fa-5cd3f71797c8/PCgylFGXeE.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+  </div>
+ 
+
+    <div id="nav">
+      <div class="top-content">
+        <img src="https://img.freepik.com/free-vector/gradient-breaking-news-logo-design_23-2151172857.jpg?t=st=1712814335~exp=1712817935~hmac=7207a6339e940bfdc3b27835c6eff2c037b8fa75990f60e38dca6ebf121fde15&w=740" alt="">
+        <h4> <a href="#index.html"> Home </a></h4>
+        <h4><a href="#about-us"> AboutUs </a> </h4>
+        <h4> <a href="forecast.html">  Weather Forecast </a> </h4>
+        <h4><a href="#search">Search </a></h4>
+        <h4> More </h4>
+      </div>
+      
+      <div class = "google">
+        <div id="google_translate_element" class = "google-box"> </div>
+        <button class = "login"> <a href="/login.html"> LOGIN </a> </button>
+      </div>
+
+   
+
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video autoplay loop muted src="./videos/backVideo.mov"></video>
+
+    <div id="main">
+      <div id="page1">
+        <h1> WORLD.SPECTRUM.NEWS </h1>
+        <h2> Welcome to World Spectrum News </h2>
+        <p>
+            This website provides all over the world news and wil provide the weather forecasting with the people's location..
+        </p>
+        <div id="arrow">
+           <a href="#lower"> <i class="ri-arrow-down-line"> </i></a>
+        </div>
+      </div>
+      <div id="page2">
+
+        <div class="marquee">
+            <div class="marquee-content">
+                <a href=" Welcome"> Welcome to World Spectrum News </a>
+                <a href="https://example.com/link1"> Education </a>
+                <a href="https://example.com/link2"> Sports </a>
+                <a href="https://example.com/link3"> Stock Market </a>
+                <a href="https://example.com/link4"> Health </a>
+                <a href="forecast.html"> Weather</a>
+                <a href="https://example.com/link4"> Entertainment </a>
+                
+            </div>
+        </div>
+
+        <div id="about-us">
+          <img
+            src="./Images/news1.jpg"
+            alt="news-icon"
+          />
+          <div id="about-us-in">
+            <h3> ABOUT US </h3>
+            <p> Welcome to The Website crafted by four first-semester ISE Department programmers in a hackathon.
+                We're dedicated to delivering timely, reliable news with a fresh perspective. Join us as we redefine news accessibility 
+                and foster informed communities.  </p>
+          </div>
+          <img
+            src="./Images/news 2.jpg"
+            alt="news-icon"
+          />
+        </div>
+        <h1> Trending Topics </h1>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h3> Education </h3>
+              <p>
+                 Education transcends mere instruction; it cultivates intellect, nurtures curiosity, and ignites a passion for lifelong
+                 learning. By providing individuals with essential literacy, numeracy, and cognitive skills, education equips 
+                 them to navigate the complexities of the modern world.
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h3> Sports </h3>
+              <p>
+                 Catch all the highlights, breaking news, and expert commentary right here. From epic match-ups to
+                 record-breaking performances, we bring the excitement of the sports arena directly to you.
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h3>Health</h3>
+              <p>
+                 Explore a holistic approach to health on our site. Discover the latest trends in wellness,
+                 receive advice from health professionals, and read inspiring stories that motivate you to lead a healthier life.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Page 3 -->
+      <div id="page3">
+        <p>
+          Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <!-- Page 4  -->
+
+      <div id="page4">
+
+        <h1> Stock market </h1>
+        
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="content_manage">
+            <img class="d-block w-100" src="./Images/stock2.avif" alt = "stock-image">
+            <div class="info">
+              <h1> FPIs pump ₹13,347 crore in Indian equities, debt flows reduce in April so far: Will inflows continue in FY25? </h1>
+              <p>Foreign portfolio investors (FPIs) have reduced their momentum of buying in Indian equities since the onset of the new fiscal 2024-25 (FY25) after reporting solid inflows in the previous fiscal. FPIs started the year on a strong note and have so far extended the buying streak in Indian markets. However, experts are doubtful if the inflows will continue in near-term due to the India-Mauritius tax treaty.
+                FPIs have bought ₹13,347 crore worth of Indian equities and the total inflow stands at ₹15,706 crore as of April 12, taking into account debt, hybrid, debt-VRR, and equities, according to National Securities Depository Ltd (NSDL) data. The total debt inflows stand at ₹1,522 crore so far this month.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock1.jpg">
+          <div class = "info">
+          <h1> Over 40 smallcap stocks gain 10-40% even as Nifty 50, Sensex settle flat; Aster DM, Hind Copper among gainers </h1>
+          <p>Around 40 smallcap stocks logged gains in the range of 10-40 per cent even as Nifty 50 and Sensex settled the week flat yet marked a fourth consecutive week of gains. This came after the 30-share BSE Sensex also touched an all-time high for the very first time at 75,124 level last week but eventually settled lower near 74,244 dragged by weak global cues. Hindustan Copper, Aster DM Healthcare, Kolte Patil Developers, Ramco Systems were among the top smallcap gainers.
+            Abans Holdings, Transformers & Rectifiers, Waree Renewable Tech, IIFL Finance, KEI Industries, Anand Rathi Wealth, Llyods Metals, Force Motors, Suryoday Small Finance Bank, Motilal Oswal Financial Services among other smallcap stocks logged a double-digit growth in their share prices last week.
+          </p>
+          </div>
+          
+      </div>
+      </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock3.avif" alt="Third slide">
+          <div class="info">
+            <h1> Adani Group targets 20% share in India's cement market, 16% capacity expansion by FY28 </h1>
+            <p>Gautam Adani-led Adani group, which owns Ambuja Cements and ACC Ltd, is targeting to capture around one-fifth of the Indian cement market by FY28. Adani Cement business will implement its accelerated capex program through internal accruals and the business will continue to "remain debt free," said an investor presentation shared by Ambuja Cements.
+              Besides, Adani Cement also amplifies the pace of capacity expansion and is expected to have an accelerated growth rate of 16 per cent to reach 140 MTPA (million tonnes per annum) by FY2028. "Adani Cement market share targeted to be 20 per cent by FY'28 from current 14 per cent," said the Adani group firm. </p>
+      
+          </div>
+      </div>
+      </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+       
+      </div>
+      <div id="page5">
+
+        <h1> Sports </h1>
+        
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="content_manage">
+            <img class="d-block w-100" src="./Images/stock2.avif" alt = "stock-image">
+            <div class="info">
+              <h1> Shimron Hetmyer like knock wasn't required': Rajasthan Royals' bizarre decision draws flak from former cricketers </h1>
+              <p>Rajasthan Royals defeated Punjab Kings by 3 wickets at the Maharaja Yadavindra Singh International Cricket Stadium in Mullanpur
+                 on Saturday. Despite the win, RR skipper Sanju Samson has come under fire for some of the decisions he made during the match,
+                  including sending debutant Tanush Kotian to open the batting alongside Yashasvi Jaiswal. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock1.jpg">
+          <div class = "info">
+          <h1> Over 40 smallcap stocks gain 10-40% even as Nifty 50, Sensex settle flat; Aster DM, Hind Copper among gainers </h1>
+          <p>Around 40 smallcap stocks logged gains in the range of 10-40 per cent even as Nifty 50 and Sensex settled the week flat yet marked a fourth consecutive week of gains. This came after the 30-share BSE Sensex also touched an all-time high for the very first time at 75,124 level last week but eventually settled lower near 74,244 dragged by weak global cues. Hindustan Copper, Aster DM Healthcare, Kolte Patil Developers, Ramco Systems were among the top smallcap gainers.
+            Abans Holdings, Transformers & Rectifiers, Waree Renewable Tech, IIFL Finance, KEI Industries, Anand Rathi Wealth, Llyods Metals, Force Motors, Suryoday Small Finance Bank, Motilal Oswal Financial Services among other smallcap stocks logged a double-digit growth in their share prices last week.
+          </p>
+          </div>
+          
+      </div>
+      </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock3.avif" alt="Third slide">
+          <div class="info">
+            <h1> Adani Group targets 20% share in India's cement market, 16% capacity expansion by FY28 </h1>
+            <p>Gautam Adani-led Adani group, which owns Ambuja Cements and ACC Ltd, is targeting to capture around one-fifth of the Indian cement market by FY28. Adani Cement business will implement its accelerated capex program through internal accruals and the business will continue to "remain debt free," said an investor presentation shared by Ambuja Cements.
+              Besides, Adani Cement also amplifies the pace of capacity expansion and is expected to have an accelerated growth rate of 16 per cent to reach 140 MTPA (million tonnes per annum) by FY2028. "Adani Cement market share targeted to be 20 per cent by FY'28 from current 14 per cent," said the Adani group firm. </p>
+      
+          </div>
+      </div>
+      </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+       
+      </div>
+
+
+      <div id="page6">
+
+        <h1> Technology </h1>
+        
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="content_manage">
+            <img class="d-block w-100" src="./Images/stock2.avif" alt = "stock-image">
+            <div class="info">
+              <h1> Shimron Hetmyer like knock wasn't required': Rajasthan Royals' bizarre decision draws flak from former cricketers </h1>
+              <p>Rajasthan Royals defeated Punjab Kings by 3 wickets at the Maharaja Yadavindra Singh International Cricket Stadium in Mullanpur
+                 on Saturday. Despite the win, RR skipper Sanju Samson has come under fire for some of the decisions he made during the match,
+                  including sending debutant Tanush Kotian to open the batting alongside Yashasvi Jaiswal. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock1.jpg">
+          <div class = "info">
+          <h1> Over 40 smallcap stocks gain 10-40% even as Nifty 50, Sensex settle flat; Aster DM, Hind Copper among gainers </h1>
+          <p>Around 40 smallcap stocks logged gains in the range of 10-40 per cent even as Nifty 50 and Sensex settled the week flat yet 
+            marked a fourth consecutive week of gains. This came after the 30-share BSE Sensex also touched an all-time high for the very 
+            first time at 75,124 level last week but eventually settled lower near 74,244 dragged by weak global cues. Hindustan Copper, Aster DM Healthcare, Kolte Patil Developers, Ramco Systems were among the top smallcap gainers.
+            Abans Holdings, Transformers & Rectifiers, Waree Renewable Tech, IIFL Finance, KEI Industries, Anand Rathi Wealth, Llyods Metals, Force Motors, Suryoday Small Finance Bank, Motilal Oswal Financial Services among other smallcap stocks logged a double-digit growth in their share prices last week.
+          </p>
+          </div>
+          
+      </div>
+      </div>
+        <div class="carousel-item">
+          <div class="content_manage">
+          <img class="d-block w-100" src="./Images/stock3.avif" alt="Third slide">
+          <div class="info">
+            <h1> Adani Group targets 20% share in India's cement market, 16% capacity expansion by FY28 </h1>
+            <p>Gautam Adani-led Adani group, which owns Ambuja Cements and ACC Ltd, is targeting to capture around one-fifth of the Indian cement market by FY28. Adani Cement business will implement its accelerated capex program through internal accruals and the business will continue to "remain debt free," said an investor presentation shared by Ambuja Cements.
+              Besides, Adani Cement also amplifies the pace of capacity expansion and is expected to have an accelerated growth rate of 16 per cent to reach 140 MTPA (million tonnes per annum) by FY2028. "Adani Cement market share targeted to be 20 per cent by FY'28 from current 14 per cent," said the Adani group firm. </p>
+      
+          </div>
+      </div>
+      </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+       
+      </div>
+
+      <div id="page7">
+        <nav>
+          <div class = "nav-bar">
+            <a href="index.html" class = "logo"> News </a>
+      
+            <div class =  "search-container"> 
+              <input type="text" placeholder="Enter Your Query" class = "search-inp ">
+              <button class = "search-Btn" id = "search"> Search </button>
+            </div>
+          </div>
+      
+        </nav>
+      
+        <!--  Creating Cards -->
+      
+        <main class = "main-container">
+          
+        <div class = "cards-container">
+      
+        <!-- <div class = "cards">
+          <div class = "image-container" >  
+            <img src="./btech-fees.webp" alt="image">
+          </div>
+          <div class =" text">
+            <h2> This is a Title </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elite.</p>
+          </div>
+        </div>
+      
+        <div class = "cards">
+          <div class = "image-container" >  
+            <img src="./btech-fees.webp" alt="image">
+          </div>
+          <div class =" text">
+            <h2> This is a Title </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elite.</p>
+          </div>
+        </div>
+      
+        <div class = "cards">
+          <div class = "image-container" >  
+            <img src="./btech-fees.webp" alt="image">
+          </div>
+          <div class =" text">
+            <h2> This is a Title </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elite.</p>
+          </div>
+        </div>
+      
+        <div class = "cards">
+          <div class = "image-container" >  
+            <img src="./btech-fees.webp" alt="image">
+          </div>
+          <div class =" text">
+            <h2> This is a Title </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elite.</p>
+          </div>
+        </div> -->
+      </div>
+      
+      </main>
+
+      </div>
+
+
+      <button id="helpBtn" class="help-button">?</button>
+
+    <footer id ="lower"></footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/app.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>
